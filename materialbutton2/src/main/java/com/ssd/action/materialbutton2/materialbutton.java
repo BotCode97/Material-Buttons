@@ -33,7 +33,7 @@ public class materialbutton extends LinearLayout {
         }
         if (out){
             b.setBackgroundResource(R.drawable.outlined_button_blue);
-            b.setTextColor(Color.parseColor(String.valueOf(getResources().getColor(R.color.colorPrimary,null))));
+            b.setTextColor(Color.parseColor("#6200ee"));
         }else {
             b.setBackgroundResource(R.drawable.button_blue);
             b.setTextColor(Color.parseColor("#ffffff"));
