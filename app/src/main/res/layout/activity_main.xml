@@ -4,8 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
+<com.ssd.action.materialbutton.materialbutton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:text="Button"
+    android:layout_margin="16dp"
+    app:Outlined="false"
+    />
 
+
+    <com.ssd.action.materialbutton.materialbutton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="Button"
+        android:layout_margin="16dp"
+        app:Outlined="true"
+        />
 </LinearLayout>
