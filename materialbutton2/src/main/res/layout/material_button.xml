@@ -9,7 +9,6 @@
         android:text="Button"
         android:background="@drawable/button_blue"
         android:textColor="#ffffff"
-        android:fontFamily="@font/robotomedium"
         android:id="@+id/button"/>
 
 </merge>
